@@ -1,3 +1,3 @@
 # ProjektJava
 
-To jest repozutorium kodu projektu Java na 3 roku Bioinżyunierii Medycznej.
+Repo kodu aplikacji o doktorkach, ich pacjentach, blabla. 
