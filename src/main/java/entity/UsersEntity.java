@@ -2,6 +2,16 @@ package entity;
 
 import jakarta.persistence.*;
 
+@NamedQueries(
+        {
+                @NamedQuery(
+                        name="LoginUser",
+                        query = "from UsersEntity e where e.login = :login and e.password = :password"
+                )
+        }
+)
+
+// query = "from UsersEntity e where e.login = :login and e.password = :password"
 @Entity
 @Table(name = "users", schema = "nfz")
 public class UsersEntity {
